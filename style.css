@@ -191,42 +191,13 @@
     }
 }
 
-/* header */
-.site-header {
-    width: 90%;
-    max-width: 1344px;
-    margin: 0 auto;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    align-self: center;
-}
-
-.primary-navigation {
-    visibility: visible;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    position: relative;
-}
-
-.nav__list {
-    display: flex;
-    margin: 0;
-}
-
-.nav__item {
-    margin: 0 0 0 1.5em;
-}
-
-.nav__link {
-    text-decoration: none; 
+@layer layout {
+    .wrapper {
+        max-width: 1130px;
+        margin-inline: auto;
+        padding-inline: 1rem;
+        box-sizing: content-box;
+    }
 }
 
 @layer utilities {
