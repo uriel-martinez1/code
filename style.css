@@ -237,7 +237,7 @@
             --padding: 8rem;
 
             &[data-padding="compact"] {
-                padding-block: 4.5rem;
+                --padding: 4.5rem;
             }
         }
     }
@@ -250,6 +250,7 @@
         margin-inline: auto;
         padding-inline: var(--wrapper-padding);
         
+        /* helps to match to the figma file */
         box-sizing: content-box;
     }
 
@@ -390,7 +391,7 @@
       }
     
       .section-title {
-        font-size: var(--font-size-heading-base);
+        font-size: var(--font-size-heading-regular);
       }
     
       .background-base {
